@@ -1,0 +1,123 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< APITest:APITest >---------------------------
+[INFO] Building APITest 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ APITest ---
+[INFO] Deleting C:\Users\swati02\DHL\APITestSwati\APITest\APITest\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ APITest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\swati02\DHL\APITestSwati\APITest\APITest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ APITest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\swati02\DHL\APITestSwati\APITest\APITest\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[3,29] package io.restassured does not exist
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[3,1] static import only from classes and interfaces
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[14,22] package io.restassured does not exist
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[15,31] package io.restassured.response does not exist
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[16,36] package io.restassured.specification does not exist
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[61,23] cannot find symbol
+  symbol:   class Response
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[84,23] cannot find symbol
+  symbol:   class Response
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[90,23] cannot find symbol
+  symbol:   class Response
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[118,41] cannot find symbol
+  symbol:   class Response
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[63,17] cannot find symbol
+  symbol:   class RequestSpecification
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[63,48] cannot find symbol
+  symbol:   variable RestAssured
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[65,17] cannot find symbol
+  symbol:   class Response
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[71,17] cannot find symbol
+  symbol:   class Response
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[86,17] cannot find symbol
+  symbol:   class Response
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[86,32] cannot find symbol
+  symbol:   method get(java.lang.String)
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[91,17] cannot find symbol
+  symbol:   class RequestSpecification
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[91,44] cannot find symbol
+  symbol:   variable RestAssured
+  location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[94,17] cannot find symbol
+  symbol:   class Response
+  location: class baseSetup.RestClient
+[INFO] 18 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.214 s
+[INFO] Finished at: 2018-11-16T20:48:08+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project APITest: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[3,29] package io.restassured does not exist
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[3,1] static import only from classes and interfaces
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[14,22] package io.restassured does not exist
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[15,31] package io.restassured.response does not exist
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[16,36] package io.restassured.specification does not exist
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[61,23] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[84,23] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[90,23] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[118,41] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[63,17] cannot find symbol
+[ERROR]   symbol:   class RequestSpecification
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[63,48] cannot find symbol
+[ERROR]   symbol:   variable RestAssured
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[65,17] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[71,17] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[86,17] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[86,32] cannot find symbol
+[ERROR]   symbol:   method get(java.lang.String)
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[91,17] cannot find symbol
+[ERROR]   symbol:   class RequestSpecification
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[91,44] cannot find symbol
+[ERROR]   symbol:   variable RestAssured
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] /C:/Users/swati02/DHL/APITestSwati/APITest/APITest/src/main/java/baseSetup/RestClient.java:[94,17] cannot find symbol
+[ERROR]   symbol:   class Response
+[ERROR]   location: class baseSetup.RestClient
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
