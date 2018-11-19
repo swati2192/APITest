@@ -16,7 +16,6 @@ public class PlaceOrderTest extends RestClient {
 	// Verify the status code of the order with valid values
 	@Test(priority = 1)
 	public void verifyValidResponse() throws Exception {
-		
 		JSONObject obj = RestClient.getPayload("verifyValidResponse");
 		Response res = APICalls.postRequest(obj);
 		orderId = ResponseParser.getOrderId(res);
@@ -55,7 +54,7 @@ public class PlaceOrderTest extends RestClient {
 				ResponseParser.getMessage(res.getBody().asString()));
 	}
 
-	// Verify driving distance between each 2 stops is in metres
+	// Verify driving distance between each 2 stops is in integers
 	@Test(priority = 2)
 	public void verifyDistance() throws Exception {
 		JSONObject obj = RestClient.getPayload("verifyDrivingDistance");

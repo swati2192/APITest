@@ -19,7 +19,7 @@ public class RestClient {
 	public static void setOrderId(String id) {
 		orderId = id;
 	}
-	
+
 	public static JSONObject getPayload(String tcName) throws Exception {
 		JSONObject object = null;
 		CommonTestDataDTO.initializeProperties();

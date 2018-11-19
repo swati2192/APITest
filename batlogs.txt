@@ -1,0 +1,55 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< APITest:APITest >---------------------------
+[INFO] Building APITest 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ APITest ---
+[INFO] Deleting C:\Users\swati02\DHL\APITestSwati\APITest\APITest\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ APITest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\swati02\DHL\APITestSwati\APITest\APITest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ APITest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to C:\Users\swati02\DHL\APITestSwati\APITest\APITest\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ APITest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\swati02\DHL\APITestSwati\APITest\APITest\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ APITest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\swati02\DHL\APITestSwati\APITest\APITest\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.8:test (default-test) @ APITest ---
+[INFO] Surefire report directory: C:\Users\swati02\DHL\APITestSwati\APITest\APITest\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.69 sec
+
+Results :
+
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ APITest ---
+[INFO] Building jar: C:\Users\swati02\DHL\APITestSwati\APITest\APITest\target\APITest-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ APITest ---
+[INFO] Installing C:\Users\swati02\DHL\APITestSwati\APITest\APITest\target\APITest-0.0.1-SNAPSHOT.jar to C:\Users\swati02\.m2\repository\APITest\APITest\0.0.1-SNAPSHOT\APITest-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\swati02\DHL\APITestSwati\APITest\APITest\pom.xml to C:\Users\swati02\.m2\repository\APITest\APITest\0.0.1-SNAPSHOT\APITest-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 21.809 s
+[INFO] Finished at: 2018-11-19T12:59:05+05:30
+[INFO] ------------------------------------------------------------------------
