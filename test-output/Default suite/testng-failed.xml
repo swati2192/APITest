@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testClasses.CancelOrderTest">
+      <class name="testClasses.PlaceOrderTest">
         <methods>
-          <include name="verifyInValidOrderResponse"/>
+          <include name="verifyTripFare"/>
         </methods>
-      </class> <!-- testClasses.CancelOrderTest -->
+      </class> <!-- testClasses.PlaceOrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

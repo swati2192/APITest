@@ -1,0 +1,4 @@
+baseSetup\ResponseParser.class
+baseSetup\APICalls.class
+DTO\CommonTestDataDTO.class
+baseSetup\RestClient.class

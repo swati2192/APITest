@@ -1,0 +1,5 @@
+testClasses\CompleteOrderTest.class
+testClasses\PlaceOrderTest.class
+testClasses\TakeOrderTest.class
+testClasses\CancelOrderTest.class
+testClasses\FetchOrderTest.class

@@ -2,6 +2,9 @@ package testClasses;
 
 import org.testng.annotations.Test;
 
+import DTO.CommonTestDataDTO;
+import baseSetup.APICalls;
+import baseSetup.ResponseParser;
 import baseSetup.RestClient;
 import io.restassured.response.Response;
 
@@ -12,7 +15,7 @@ public class FetchOrderTest extends RestClient {
 	// Verify the status code is 200 with valid order
 	@Test(priority = 1)
 	public void getValidOrderResponse() throws Exception {
-		Response res = RestClient.getResponse(String.valueOf(id));
+		Response res = APICalls.getResponse(String.valueOf(orderId));
 		Assert.assertEquals(200, res.getStatusCode());
 	}
 
@@ -20,10 +23,10 @@ public class FetchOrderTest extends RestClient {
 	@Test(priority = 2)
 	public void getInValidResponse() {
 		String orderId = "0";
-		Response res = RestClient.getResponse(orderId);
+		Response res = APICalls.getResponse(orderId);
 		Assert.assertEquals(404, res.getStatusCode());
-		Assert.assertEquals(RestClient.loadProperties("TestData.properties").getProperty("messageOrderNotFound"),
-				RestClient.getMessage(res.getBody().asString()));
+		Assert.assertEquals(CommonTestDataDTO.getTestDataPropertyValue("messageOrderNotFound"),
+				ResponseParser.getMessage(res.getBody().asString()));
 	}
 
 }
